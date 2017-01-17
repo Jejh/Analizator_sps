@@ -1,0 +1,385 @@
+Dependencies for Project 'Projekt', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\main.c)(0x587E2F90)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\inc\main.h)(0x587B2479)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+I (.\libraries\CMSIS\arm_math.h)(0x586B633F)
+I (H:\Keil uVision5\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (H:\Keil uVision5\ARM\ARMCC\include\math.h)(0x55DB71CE)
+I (.\inc\pdm_filter.h)(0x57FE9038)
+I (.\inc\moje.h)(0x587B25DF)
+F (.\src\moje.c)(0x587B2413)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\moje.o --omf_browse .\objects\moje.crf --depend .\objects\moje.d)
+I (.\inc\main.h)(0x587B2479)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+I (.\libraries\CMSIS\arm_math.h)(0x586B633F)
+I (H:\Keil uVision5\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (H:\Keil uVision5\ARM\ARMCC\include\math.h)(0x55DB71CE)
+I (.\inc\pdm_filter.h)(0x57FE9038)
+I (.\inc\moje.h)(0x587B25DF)
+F (.\src\stm32f4xx_it.c)(0x587B2C75)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (.\inc\stm32f4xx_it.h)(0x54DE113C)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+I (.\inc\main.h)(0x587B2479)
+I (.\libraries\CMSIS\arm_math.h)(0x586B633F)
+I (H:\Keil uVision5\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (H:\Keil uVision5\ARM\ARMCC\include\math.h)(0x55DB71CE)
+I (.\inc\pdm_filter.h)(0x57FE9038)
+I (.\inc\moje.h)(0x587B25DF)
+F (.\src\libPDMFilter_Keil.lib)(0x4EAA687E)()
+F (.\src\kod.c)(0x587E2F85)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\kod.o --omf_browse .\objects\kod.crf --depend .\objects\kod.d)
+I (.\inc\main.h)(0x587B2479)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+I (.\libraries\CMSIS\arm_math.h)(0x586B633F)
+I (H:\Keil uVision5\ARM\ARMCC\include\string.h)(0x55DB71C8)
+I (H:\Keil uVision5\ARM\ARMCC\include\math.h)(0x55DB71CE)
+I (.\inc\pdm_filter.h)(0x57FE9038)
+I (.\inc\moje.h)(0x587B25DF)
+F (.\libraries\arm_cortexM4l_math.lib)(0x54DDDB63)()
+F (.\libraries\arm_cortexM4lf_math.lib)(0x54DDDB5D)()
+F (.\libraries\StdPeriph\misc.c)(0x54DDBF86)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\libraries\StdPeriph\stm32f4xx_gpio.c)(0x586A2914)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\libraries\StdPeriph\stm32f4xx_rcc.c)(0x54F98A3E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\libraries\StdPeriph\stm32f4xx_spi.c)(0x54DDBF86)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
+I (libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\libraries\StdPeriph\stm32f4xx_usart.c)(0x5867AEE8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\src\system_stm32f4xx.c)(0x5864C930)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (.\inc\stm32f4xx.h)(0x5867B6B0)
+I (.\libraries\CMSIS\core_cm4.h)(0x54DDDB0E)
+I (H:\Keil uVision5\ARM\ARMCC\include\stdint.h)(0x55DB71D0)
+I (.\libraries\CMSIS\core_cmInstr.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmFunc.h)(0x54DDDB0E)
+I (.\libraries\CMSIS\core_cmSimd.h)(0x54DDDB0E)
+I (.\inc\system_stm32f4xx.h)(0x54DDBD46)
+I (.\inc\stm32f4xx_conf.h)(0x58721477)
+I (.\libraries\StdPeriph\stm32f4xx_adc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_crc.h)(0x4EAA5A4A)
+I (.\libraries\StdPeriph\stm32f4xx_dbgmcu.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_dma.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_exti.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_flash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_gpio.h)(0x54F987BE)
+I (.\libraries\StdPeriph\stm32f4xx_i2c.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_iwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_pwr.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rcc.h)(0x54F98994)
+I (.\libraries\StdPeriph\stm32f4xx_rtc.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_sdio.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_spi.h)(0x5825A67E)
+I (.\libraries\StdPeriph\stm32f4xx_syscfg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_tim.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_usart.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_wwdg.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\misc.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_cryp.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_hash.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_rng.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_can.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dac.h)(0x54DDBFC2)
+I (.\libraries\StdPeriph\stm32f4xx_dcmi.h)(0x54DDBFC4)
+I (.\libraries\StdPeriph\stm32f4xx_fsmc.h)(0x54DDBFC4)
+F (.\startup_stm32f40xx.s)(0x54DDD996)(--cpu Cortex-M4.fp -g --apcs=interwork -I . -I .\libraries\StdPeriph -I .\libraries\CMSIS -I .\inc -I .\utilities-I C:\Users\thomson\Desktop\Audio\RTE-I "H:\Keil uVision5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "H:\Keil uVision5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 518" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40xx.lst --xref -o .\objects\startup_stm32f40xx.o --depend .\objects\startup_stm32f40xx.d)

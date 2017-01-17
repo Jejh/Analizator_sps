@@ -1,0 +1,44 @@
+.\objects\kod.o: src\kod.c
+.\objects\kod.o: .\inc\main.h
+.\objects\kod.o: .\inc\stm32f4xx.h
+.\objects\kod.o: .\libraries\CMSIS\core_cm4.h
+.\objects\kod.o: H:\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\kod.o: .\libraries\CMSIS\core_cmInstr.h
+.\objects\kod.o: .\libraries\CMSIS\core_cmFunc.h
+.\objects\kod.o: .\libraries\CMSIS\core_cmSimd.h
+.\objects\kod.o: .\inc\system_stm32f4xx.h
+.\objects\kod.o: .\inc\stm32f4xx_conf.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_adc.h
+.\objects\kod.o: .\inc\stm32f4xx.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_crc.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_dbgmcu.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_dma.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_exti.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_flash.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_gpio.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_i2c.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_iwdg.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_pwr.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_rcc.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_rtc.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_sdio.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_spi.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_syscfg.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_tim.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_usart.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_wwdg.h
+.\objects\kod.o: .\libraries\StdPeriph\misc.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_cryp.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_hash.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_rng.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_can.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_dac.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_dcmi.h
+.\objects\kod.o: .\libraries\StdPeriph\stm32f4xx_fsmc.h
+.\objects\kod.o: .\libraries\CMSIS\arm_math.h
+.\objects\kod.o: .\libraries\CMSIS\core_cm4.h
+.\objects\kod.o: H:\Keil uVision5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\kod.o: H:\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\kod.o: .\inc\pdm_filter.h
+.\objects\kod.o: .\inc\moje.h
+.\objects\kod.o: .\inc\main.h

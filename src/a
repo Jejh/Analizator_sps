@@ -1,0 +1,30 @@
+		for(i=0; i<256; ++i)
+		{
+      buffer_input_copy[i] = 0;
+      buffer_output_mag_copy[i] = 0;
+		}
+		
+		I2S_Cmd(SPI2, ENABLE);
+		// Jesli nowa paczka danych PCM jest gotowa
+		if(Data_Status)
+		{
+			//Kopiuj paczki danych do bufora
+			for(i =0; i<(OUT_FREQ/1000); i++)
+			{
+				buffer_input[i+(OUT_FREQ/1000)*z] = (float32_t) PCM_Output_Buffer[i];
+			}
+			z++;
+			
+			if(z>512)
+			{
+				z=0;
+				
+				/* ------- */
+				//Wyznaczanie transformaty
+				arm_rfft_f32(&S, buffer_input, buffer_output);
+				//Obliczanie modulow
+				arm_cmplx_mag_f32(buffer_output, buffer_output_mag, 512);
+			}
+			
+		}
+		I2S_Cmd(SPI2, DISABLE);
