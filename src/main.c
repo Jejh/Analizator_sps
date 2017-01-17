@@ -38,18 +38,19 @@ uint16_t output;
 /* ---------------------------------------------------------------------------*/
 int main(void)
 {
+	_RCC();
 	_GPIO();
 	_LED();
-	_I2S();
-	//_PDM();
-	//_USART1(9600);
-	_NVIC();
-	
+	_USART1(9600);
+	_NVIC();	
+	_PDM();
 	GPIO_SetBits(GPIOD, LED_Green);
+	_I2S();
+	
 		
 	arm_rfft_init_f32(&S, &S_CFFT, 512, 0, 1);
 	
-	I2S_Cmd(SPI2, ENABLE);
+	//I2S_Cmd(SPI2, ENABLE);
 	
 	
 	//----------------- Infinite loop

@@ -5,15 +5,22 @@ NVIC_InitTypeDef NVIC_Str;
 I2S_InitTypeDef I2S_Str;
 PDMFilter_InitStruct Filter;
 
+void _RCC(void)
+{
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB |	RCC_AHB1Periph_GPIOC, ENABLE); //GPIO dla UART oraz MP45DT02
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE); // zegar dla USART1
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE); //zegar dla SPI2 do ktorego podpiety jest mikrofon
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_CRC, ENABLE); // zegar CRC dla struktury filtru PDM
+	RCC_PLLI2SCmd(ENABLE); // wlaczenie PLL dla interfejsu I2S
+}
+
 /**
 * @brief Function that configures GPIO
 * @param -
 * @retval -
 */
 void _GPIO(void)
-{
-	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB |	RCC_AHB1Periph_GPIOC, ENABLE);
-	
+{	
 	// Configure USART1 Tx->PB6 | Rx->PB7
   GPIO_Str.GPIO_Pin   = GPIO_Pin_6 | GPIO_Pin_7;
   GPIO_Str.GPIO_Mode  = GPIO_Mode_AF;
@@ -51,9 +58,7 @@ void _GPIO(void)
 * @retval -
 */
 void _USART1(uint32_t baud)
-{	
-		RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
-	
+{		
 	USART_Str.USART_BaudRate = 9600;
 	USART_Str.USART_WordLength = USART_WordLength_8b;
 	USART_Str.USART_StopBits = USART_StopBits_1;
@@ -87,7 +92,7 @@ void _NVIC(void)
 	NVIC_EnableIRQ(USART1_IRQn);
 	*/
 	
-	// Config SPI2 interrupt
+	// Przerwanie SPI2
 	NVIC_Str.NVIC_IRQChannel =SPI2_IRQn;
 	NVIC_Str.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Str.NVIC_IRQChannelPreemptionPriority = 0;
@@ -98,9 +103,6 @@ void _NVIC(void)
 
 void _I2S(void)
 { 	
-	RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2 | RCC_AHB1Periph_CRC, ENABLE);
-	RCC_PLLI2SCmd(ENABLE);
-	
 	SPI_I2S_DeInit(SPI2);
 	I2S_Str.I2S_AudioFreq = 40000*2;
 	I2S_Str.I2S_Standard = I2S_Standard_LSB;
@@ -108,7 +110,9 @@ void _I2S(void)
 	I2S_Str.I2S_CPOL = I2S_CPOL_High;
 	I2S_Str.I2S_Mode = I2S_Mode_MasterRx;
 	I2S_Str.I2S_MCLKOutput = I2S_MCLKOutput_Disable;
+	// Inicjalizacja struktury I2S_Str
 	I2S_Init(SPI2, &I2S_Str);
+	
 	// Wlaczenie przerwan od zapelnienia bufora odbiorczego I2S2
 	SPI_I2S_ITConfig(SPI2, SPI_I2S_IT_RXNE, ENABLE);
 	
@@ -118,8 +122,9 @@ void _I2S(void)
 
 void _PDM(void)
 {	
+	
 	// Initialize PDM filter
-  Filter.Fs = OUT_FREQ;
+  Filter.Fs = 2*OUT_FREQ;
   Filter.HP_HZ = 0;
   Filter.LP_HZ = 20000;
   Filter.In_MicChannels = 1;
